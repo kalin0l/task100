@@ -15,13 +15,13 @@ const style = {
     paddingBottom: "1rem",
     borderBottom: "1px solid #ccc",
   },
-  h3:{
+  mealHeading:{
     margin: "0 0 0.25rem 0"
   },
-  div:{
+  description:{
     fontStyle: "italic"
   },
-  lastDiv:{
+  price:{
     marginTop: "0.25rem",
     fontWeight: "bold",
     color: "ad5502",
@@ -35,10 +35,10 @@ function App() {
       <div
         style={style.wrapper}
       >
-        <h3 style={style.h3}>Sushi</h3>
-        <div style={style.div}>I prefer steak than sushi.</div>
+        <h3 style={style.mealHeading}>Sushi</h3>
+        <div style={style.description}>I prefer steak than sushi.</div>
         <div
-          style={style.lastDiv}
+          style={style.price}
         >
           $9.99
         </div>
