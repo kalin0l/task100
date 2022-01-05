@@ -1,3 +1,4 @@
+import './App.css'
 const style = {
   root: {
     maxWidth: "60rem",
@@ -30,7 +31,7 @@ const style = {
 function App() {
   return (
     <div
-      style={style.root}    >
+      style={style.root} className="App"   >
       <div
         style={style.wrapper}
       >
